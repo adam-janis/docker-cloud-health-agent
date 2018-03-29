@@ -3,7 +3,7 @@
 echo "Installing cloud health client"
 
 wget https://s3.amazonaws.com/remote-collector/agent/v14/install_cht_perfmon.sh -O install_cht_perfmon.sh;
-sh install_cht_perfmon.sh 14 $CLOUD_HEALTH_SECRET aws;
+sh install_cht_perfmon.sh 19 $CLOUD_HEALTH_SECRET aws;
 
 # modify the ec2 file, restart process
 echo "Restarting perfmon with hacked ec2 things"
